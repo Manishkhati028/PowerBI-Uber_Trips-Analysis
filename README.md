@@ -66,5 +66,5 @@ Analyze Uber trip data to uncover insights into booking trends, revenue, trip ef
 ### 3. Details Tab
 ![Details Tab](images/Uber_details.png)
 
-### 4. 
+### 4. Table Schema
 ![Table Schema](images/UIber_table_schema.png) 
