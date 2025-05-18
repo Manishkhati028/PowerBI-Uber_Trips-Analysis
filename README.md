@@ -57,5 +57,5 @@ Analyze Uber trip data to uncover insights into booking trends, revenue, trip ef
 Add screenshots in the `images/` folder and reference them here.
 
 ```markdown
-![Overview Dashboard](images/dashboard1_overview.png)
-![Time Analysis Dashboard](images/dashboard2_time.png)
+![Overview Dashboard]("C:\Important\Power Bi Projects\Uber_project\Images\Uber_overview_analysis.png")
+![Time Analysis Dashboard]("C:\Important\Power Bi Projects\Uber_project\Images\Uber_time_analysis.png")
