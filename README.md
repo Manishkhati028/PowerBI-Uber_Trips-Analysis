@@ -9,28 +9,28 @@ This Power BI project analyzes Uber trip data to gain insights into booking tren
 ### 1️⃣ Overview Analysis
 Tracks key KPIs such as total bookings, revenue, average distance, and booking value.
 
-![Overview Dashboard](images/Uber_overview_analysis.png)
+![Overview Dashboard](Images/Uber_overview_analysis.png)
 
 ---
 
 ### 2️⃣ Time Analysis
 Visualizes booking trends by time of day, day of week, and 10-minute intervals to highlight peak demand hours.
 
-![Time Analysis Dashboard](images/Uber_time_analysis.png)
+![Time Analysis Dashboard](Images/Uber_time_analysis.png)
 
 ---
 
 ### 3️⃣ Detail Tab
 Interactive table with drill-through functionality to explore trip-level data and identify granular patterns.
 
-![Detail Tab](images/Uber_details.png)
+![Detail Tab](Images/Uber_details.png)
 
 ---
 
 ### 4️⃣ Data Model View  
 Star schema with a central fact table linked to date, city, vehicle, and payment dimensions for efficient data slicing.
 
-![Data Model View](images/UIber_model_view.png)
+![Data Model View](Images/UIber_model_view.png)
 
 ---
 
@@ -64,5 +64,5 @@ Star schema with a central fact table linked to date, city, vehicle, and payment
 
 ---
 
-## 📁 Project Structure
+
 
