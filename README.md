@@ -1,70 +1,68 @@
-# 🚖 Uber Trip Analysis – Power BI Project
+# 🚗 Uber Trip Analysis Dashboard
 
-## 🔍 Business Objective
-Analyze Uber trip data to uncover insights into booking trends, revenue, trip efficiency, and time-based demand, helping stakeholders make informed decisions.
-
----
-
-## 📈 Dashboards Overview
-
-### 🟦 Dashboard 1: Overview Analysis
-- **KPIs**:
-  - Total Bookings
-  - Total Booking Value
-  - Average Booking Value
-  - Total Trip Distance
-  - Average Trip Distance
-  - Average Trip Time
-- **Features**:
-  - Dynamic Measure Selector (Total Bookings, Booking Value, Trip Distance)
-  - Filters by Payment Type and Trip Type (Day/Night)
-  - Location Analysis (Pickup, Drop-off, Farthest Trip, Top 5 Locations)
-  - Vehicle Type Grid View with Conditional Formatting
-  - Slicers: Date, City
-  - Tooltips for extra insights
-  - Dynamic chart titles
-
-### 🟨 Dashboard 2: Time Analysis
-- Analyze trip demand using:
-  - **Pickup Time (10-min intervals)** – Area Chart
-  - **Day Name** – Line Chart
-  - **Hour x Day** – Heatmap (Matrix)
-- Global Dynamic Measure filters all visuals
-
-### 🟩 Dashboard 3: Details Tab
-- Detailed Grid Table with essential trip fields
-- **Drill-through** from other dashboards
-- Bookmark to toggle between filtered and full dataset
+This Power BI project analyzes Uber trip data to gain insights into booking trends, revenue, time patterns, and trip efficiency. The dashboards are designed to help stakeholders make **data-driven decisions** for operations, customer satisfaction, and strategic planning.
 
 ---
 
-## 🛠️ Tools Used
-- Power BI (DAX, Power Query)
-- Power Automate (Export functionality)
-- SQL & Excel (for data prep)
+## 📈 Dashboards Included
 
----
+### 1️⃣ Overview Analysis
+Tracks key KPIs such as total bookings, revenue, average distance, and booking value.
 
-## 💡 Key Outcomes
-- Identified trends in bookings and revenue
-- Analyzed trip efficiency and distance metrics
-- Explored peak hours and days for demand
-- Delivered actionable insights through interactive visualizations
-
----
-
-## 🖼️ Screenshots
-
-## 📊 Dashboard Previews
-
-### 1. Overview Analysis
 ![Overview Dashboard](images/Uber_overview_analysis.png)
 
-### 2. Time Analysis
+---
+
+### 2️⃣ Time Analysis
+Visualizes booking trends by time of day, day of week, and 10-minute intervals to highlight peak demand hours.
+
 ![Time Analysis Dashboard](images/Uber_time_analysis.png)
 
-### 3. Details Tab
-![Details Tab](images/Uber_details.png)
+---
 
-### 4. Table Schema
-![Table Schema](images/UIber_table_schema.png) 
+### 3️⃣ Detail Tab
+Interactive table with drill-through functionality to explore trip-level data and identify granular patterns.
+
+![Detail Tab](images/Uber_details.png)
+
+---
+
+### 4️⃣ Data Model View  
+Star schema with a central fact table linked to date, city, vehicle, and payment dimensions for efficient data slicing.
+
+![Data Model View](images/UIber_model_view.png)
+
+---
+
+## 📊 Key Features
+
+- 🧮 **Dynamic KPI Selector** – Switch between Total Bookings, Revenue, and Trip Distance.
+- 🎯 **Slicers & Filters** – By Date, City, Payment Type, Vehicle Type, and Trip Type.
+- 💬 **Tooltips** – Show contextual metrics like Avg Booking Value & Trip Duration.
+- 🛠️ **Bookmarks** – Quick navigation for data dictionary & full data view.
+- 🔄 **Reset Button** – One-click reset of all filters.
+- 📤 **Export Button** – Download raw data via Power BI / Power Automate.
+
+---
+
+## 🎯 Business Outcomes
+
+- 📌 Identify trends in ride bookings and revenue
+- 📌 Improve trip efficiency by analyzing trip time and distance
+- 📌 Understand customer behavior by location and preferred vehicle type
+- 📌 Optimize driver allocation and dynamic pricing strategies
+
+---
+
+## 💻 Tools & Technologies
+
+- **Power BI**
+- **DAX** (for dynamic measures & KPI logic)
+- **Bookmarks & Actions**
+- **Power Query (M)**
+- **Power Automate** (for export functionality)
+
+---
+
+## 📁 Project Structure
+
